@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+    height: 72px;
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    height: 39px;
+}
+button{
+    background: transparent;
+    border: 0px;
+    height: 48px;
+}
+input{
+    height: 46px;
+    width: 332px;
+    border-radius: 10px;
+    border: 0px;
+    text-align: left;
+    border: 2px solid black;
+}
+.namelogo{
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bolder;
+    background-color: black;
+}
+.belownav{
+    height: 48px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.belownav a{
+    padding: 0.8rem 1.6rem;
+}
+.wannacarousel{
+    height: 302px;
+    background-color: beige;
+    background-image: url(./Screenshot\ 2024-01-20\ 180507.png);
+    background-size: cover;
+
+}
+.learning{
+    height: 65px;
+    background-color: beige;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2.4rem;
+    padding-right: 2.4rem;
+}
+.learning h2{
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    left: 20px;
+}
+.learning a{
+    position: relative;
+    right:50px;
+    text-decoration: underline;
+}
